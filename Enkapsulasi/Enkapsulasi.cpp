@@ -13,7 +13,7 @@ public:
 	}
 };
 
-int main() {
+int main() { 
 	remoteLampu lampuRumah;
 	lampuRumah.setSaklarNo(0, "Lampu teras rumah");
 	lampuRumah.setSaklarNo(1, "Lampu ruang tamu");
