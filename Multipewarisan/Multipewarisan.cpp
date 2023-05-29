@@ -32,5 +32,10 @@ class pelajar : private manusia, public orang {
 public:
 	string sekolah;
 
-	pel
+	pel(string pNama, string pJeniskelamin, string pSekolah) :
+		orang(pNama),
+		manusia(pJeniskelamin),
+		sekolah(pSekolah) {
+		cout << "pelajar dibuat\n" << endl;
+	}
 };
