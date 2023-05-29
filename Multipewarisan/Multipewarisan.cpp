@@ -49,4 +49,5 @@ public:
 int main() {
 	pelajar andi("andi laksono", "laki-laki", "belajarcpp");
 	cout << andi.perkenalan();
+	return 0;
 }
